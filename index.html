@@ -3,52 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | Ing. Ivan Reyes Gastelum</title>
+    <title>Iván Reyes | Ingeniería Eléctrica y Renovables</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50">
+<body class="bg-slate-50 text-slate-900 font-sans">
 
-    <!-- Encabezado -->
-    <header class="bg-blue-900 text-white py-12 px-6 text-center">
-        <h1 class="text-3xl font-bold">Ing. Ivan Reyes Gastelum</h1>
-        <p class="text-blue-200 mt-2 text-lg">Especialista en Energía Fotovoltaica</p>
+    <!-- Hero / Header -->
+    <header class="bg-slate-900 text-white py-20 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-5xl font-extrabold tracking-tight mb-4">Ing. Iván Reyes</h1>
+            <p class="text-yellow-500 text-2xl font-semibold uppercase tracking-widest">Ingeniería Eléctrica & Energías Renovables</p>
+            <div class="mt-8 flex justify-center gap-4">
+                <span class="bg-slate-800 px-4 py-2 rounded-full text-sm border border-slate-700">Diseño Fotovoltaico</span>
+                <span class="bg-slate-800 px-4 py-2 rounded-full text-sm border border-slate-700">Normativa NOM-001</span>
+                <span class="bg-slate-800 px-4 py-2 rounded-full text-sm border border-slate-700">Estudios de Carga</span>
+            </div>
+        </div>
     </header>
 
-    <!-- Sobre Mí -->
-    <section class="max-w-4xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 class="text-2xl font-bold text-blue-900 border-b-2 border-blue-100 pb-2 mb-4">Perfil Profesional</h2>
-        <p class="text-gray-700 leading-relaxed">
-            Ingeniera Eléctrica con experiencia en los sectores industrial, energético e infraestructura. 
-            Especializada en el diseño y comercialización de sistemas fotovoltaicos, gestión de flotas y mantenimiento industrial.
+    <!-- Perfil -->
+    <section class="max-w-4xl mx-auto -mt-10 p-8 bg-white shadow-2xl rounded-2xl border-t-8 border-yellow-500">
+        <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
+            <i class="fas fa-user-tie text-yellow-600"></i> Perfil Profesional
+        </h2>
+        <p class="text-gray-700 leading-relaxed text-lg">
+            Ingeniero especializado en el sector energético con amplia experiencia en el diseño, supervisión y ejecución de infraestructura eléctrica. Experto en el desarrollo de sistemas fotovoltaicos de gran escala, diagramas unifilares y estudios de eficiencia lumínica bajo estándares internacionales. Mi enfoque combina el rigor técnico de la ingeniería eléctrica con la innovación de las energías renovables.
         </p>
     </section>
 
-    <!-- Proyectos -->
-    <section class="max-w-6xl mx-auto p-6">
-        <h2 class="text-2xl font-bold text-blue-900 mb-6 text-center">Proyectos Destacados</h2>
+    <!-- Proyectos Principales -->
+    <main class="max-w-6xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold mb-12 text-center text-slate-800">Proyectos de Ingeniería</h2>
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            <!-- Proyecto 1 -->
-            <div class="bg-white p-4 rounded-lg shadow border-t-4 border-blue-600">
-                <h3 class="font-bold text-xl mb-2">Diseño de Sistemas Fotovoltaicos</h3>
-                <p class="text-gray-600 mb-4 text-sm">Desarrollo de herramientas de cotización y dimensionamiento para proyectos solares en Sonora.</p>
-                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Ingeniería Solar</span>
+            <!-- Proyecto 400kW -->
+            <div class="bg-white rounded-xl shadow-md border border-slate-100 overflow-hidden hover:shadow-xl transition">
+                <div class="bg-yellow-500 p-4 font-bold text-slate-900 flex justify-between items-center">
+                    <span>SECTOR INDUSTRIAL</span>
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-3">Sistema Fotovoltaico Industrial 408.45 kWp</h3>
+                    <p class="text-gray-600 mb-6">Liderazgo en el diseño técnico y ejecución de proyecto de gran escala. Optimización de generación energética y gestión de interconexión en media tensión.</p>
+                    <div class="bg-slate-50 p-4 rounded-lg text-sm text-slate-700">
+                        <strong>Alcance:</strong> Dimensionamiento, Planos, Ejecución y Puesta en marcha.
+                    </div>
+                </div>
             </div>
 
-            <!-- Proyecto 2 -->
-            <div class="bg-white p-4 rounded-lg shadow border-t-4 border-blue-600">
-                <h3 class="font-bold text-xl mb-2">Gestión de Infraestructura y Flotas</h3>
-                <p class="text-gray-600 mb-4 text-sm">Control logístico y mantenimiento de maquinaria para construcción y talleres de fabricación.</p>
-                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Logística Industrial</span>
+            <!-- Proyecto Estudios de Carga -->
+            <div class="bg-white rounded-xl shadow-md border border-slate-100 overflow-hidden hover:shadow-xl transition">
+                <div class="bg-slate-800 p-4 font-bold text-white flex justify-between items-center">
+                    <span>INGENIERÍA ELÉCTRICA</span>
+                    <i class="fas fa-file-invoice"></i>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-3">Diagramas Unifilares y Estudios de Carga</h3>
+                    <p class="text-gray-600 mb-6">Elaboración de ingeniería básica y de detalle para sectores residencial, comercial e industrial, garantizando el equilibrio de fases y cumplimiento normativo.</p>
+                    <div class="bg-slate-50 p-4 rounded-lg text-sm text-slate-700">
+                        <strong>Especialidad:</strong> Levantamientos técnicos y balanceo de cargas.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto Iluminación DIALux -->
+            <div class="bg-white rounded-xl shadow-md border border-slate-100 overflow-hidden hover:shadow-xl transition md:col-span-2 lg:col-span-1">
+                <div class="bg-blue-600 p-4 font-bold text-white flex justify-between items-center">
+                    <span>DISEÑO LUMÍNICO</span>
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-3">Estudios de Iluminación con DIALux</h3>
+                    <p class="text-gray-600 mb-6">Simulación y modelado 3D de niveles de iluminancia para naves industriales y locales comerciales, optimizando el confort visual y el ahorro energético.</p>
+                    <div class="bg-slate-50 p-4 rounded-lg text-sm text-slate-700">
+                        <strong>Software:</strong> DIALux evo / Análisis fotométrico.
+                    </div>
+                </div>
             </div>
 
         </div>
+    </main>
+
+    <!-- Habilidades Técnicas -->
+    <section class="bg-slate-900 text-white py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-8 text-center text-yellow-500">Herramientas y Normativa</h2>
+            <div class="flex flex-wrap justify-center gap-6 text-center">
+                <div class="w-32"><i class="fas fa-drafting-dot-pot text-3xl mb-2"></i><p class="text-xs">AutoCAD</p></div>
+                <div class="w-32"><i class="fas fa-sun text-3xl mb-2"></i><p class="text-xs">PVSyst / Helioscope</p></div>
+                <div class="w-32"><i class="fas fa-microchip text-3xl mb-2"></i><p class="text-xs">DIALux</p></div>
+                <div class="w-32"><i class="fas fa-book text-3xl mb-2"></i><p class="text-xs">NOM-001-SEDE</p></div>
+            </div>
+        </div>
     </section>
 
-    <!-- Footer / Contacto -->
-    <footer class="mt-20 bg-gray-800 text-white p-10 text-center">
-        <p class="mb-4">¿Interesado en una colaboración o servicios de ingeniería?</p>
-        <a href="mailto:tu-correo@ejemplo.com" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-bold transition">Contactar ahora</a>
+    <!-- Contacto -->
+    <footer class="py-16 text-center bg-white">
+        <h2 class="text-2xl font-bold mb-4">¿Tienes un proyecto en mente?</h2>
+        <p class="text-gray-600 mb-8 px-6">Disponible para consultoría, diseño de planos y ejecución de obras eléctricas.</p>
+        <a href="mailto:ivan.reyes@ejemplo.com" class="bg-yellow-500 hover:bg-yellow-600 text-slate-900 font-bold py-3 px-10 rounded-full transition shadow-lg">
+            Enviar Mensaje
+        </a>
+        <div class="mt-12 text-gray-400 text-sm">
+            &copy; 2026 Ing. Iván Reyes | Desarrollado profesionalmente
+        </div>
     </footer>
 
 </body>
